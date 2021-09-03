@@ -1,0 +1,12 @@
+site:
+  title: Spring Framework Documentation
+  start_page: framework:ROOT:overview.adoc
+content:
+  sources:
+    - url: ~/projects/spring-framework/
+      branches: [main/antora]
+      start_path: src/docs/antora
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
