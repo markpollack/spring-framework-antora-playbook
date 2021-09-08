@@ -1,10 +1,11 @@
 site:
   title: Spring Framework Documentation
-  start_page: framework:ROOT:overview.adoc
+  start_page: framework::index.adoc
 content:
   sources:
-    - url: ~/projects/spring-framework/
-      branches: [main/antora]
+#    - url: ../spring-framework/
+    - url: https://github.com/markpollack/spring-framework.git
+      branches: main/antora
       start_path: src/docs/antora
 ui:
   bundle:
